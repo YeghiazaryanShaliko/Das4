@@ -39,7 +39,7 @@ function draw() {
             }else{
                 fill(255);
             }
-            ellipse(msg[0], msg[1], 10, 10);
+            ellipse(msg[0], msg[1], 100, 100);
 }
 socket.on("display message", handleMessage);
 }
